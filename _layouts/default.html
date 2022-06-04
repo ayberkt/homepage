@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="title">{{ page.title }}</h1>
+      {% include navigation.html %}
+      <img src="/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
+    </header>
+    {{ content }}
+  </body>
+</html>

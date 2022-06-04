@@ -1,0 +1,11 @@
+- name: "Patch Frame of a Spectral Locale in Univalent Type Theory"
+  coauthor: "Martín H. Escardó"
+  date: Upcoming
+- name: "Formal Topology in Univalent Foundations"
+  date: May 2020
+  extra:
+    - "MSc thesis at Chalmers University of Technology"
+    - "Examined by Nils Anders Danielsson"
+- title: "Formal Topology and Univalent Foundations"
+  coauthor: Thierry Coquand
+  extra: "Chapter in Proof and Computation Vol. II"
