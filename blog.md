@@ -3,4 +3,4 @@ layout: default
 title: Blog
 ---
 
-Blog posts to arrive soon™.
+Blog to be added soon™.
