@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Work
 layout: default
 ---
 
