@@ -1,8 +1,11 @@
 ---
 layout: default
 title: About
-title: Ayberk Tosun
 ---
+
+## About
+
+<img src="/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
 
 I am a PhD student in the [Theory of Computation][1] group at the University of
 Birmingham, interested in the topological interpretation of computation. My
@@ -21,25 +24,6 @@ and predicative approach to topology, which is why most of my work so far has
 been focused on implementing pointfree topology in the constructive and
 predicative context of cubical type theory. However, I am interested in other
 ways of understanding this connection such as [synthetic topology][10].
-
-## Preprints & Theses
-
-## Publications
-
-## Teaching
-
-<ul>
-  {% for item in site.data.teaching %}
-    <li>{{ item.title }}</li>
-  {% endfor %}
-</ul>
-
-
-## Code
-
-- [Pointfree Topology in UF](https://www.cs.bham.ac.uk/~axt978/pointfree-topology-in-UF/Main.html)
-- [Sierpiński frame in UF](https://www.cs.bham.ac.uk/~axt978/pointfree-topology-in-UF/Sierpinski.html)
-- [Initial frame in `TypeTopology`](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InitialFrame.html)
 
 [1]: https://www.birmingham.ac.uk/research/activity/computer-science/theory-of-computation
 [2]: https://www.cs.bham.ac.uk/~mhe
