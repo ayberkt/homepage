@@ -1,12 +1,12 @@
 - name: About
-  link: /about.html
-- name: Publications
-  link: /
-- name: Teaching
-  link: /
-- name: Miscellaneous
-  link: /
-- name: Code
   link: /
 - name: Blog
-  link: /
+  link: /blog.html
+- name: Publications
+  link: /publicat ions.html
+- name: Teaching
+  link: /teaching.html
+- name: Code
+  link: /code.html
+- name: Miscellaneous
+  link: /miscellaneous.html
