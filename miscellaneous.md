@@ -3,9 +3,9 @@ layout: default
 title: Miscellaneous
 ---
 
-I'm an avid wildlife photographer and [birdwatcher][1]. I regularly report my
-sightings on [eBird][2]. To date, I have photographed a total of [137
-species][3] of birds. Here are some of my favourite shots:
+I'm an avid wildlife photographer and [birdwatcher][1]. I regularly contribute
+my sightings to [eBird][2]. To date, I have photographed a total of [137
+species][3] of birds. Below are some of my favourite shots.
 
  <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -13,14 +13,20 @@ species][3] of birds. Here are some of my favourite shots:
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="/assets/images/img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <img src="/assets/images/IMG_1766-screen.jpg" style="width:100%">
+    <div class="caption">Goldcrest</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="/assets/images/img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <img src="/assets/images/IMG_1895-screen.jpg" style="width:100%">
+    <div class="caption">Common Kingfisher.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="/assets/images/IMG_8832-screen.jpg" style="width:100%">
+    <div class="caption">Greater Whitethroat</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -37,24 +43,33 @@ species][3] of birds. Here are some of my favourite shots:
 </div> 
 
 <script>
-let slideIndex = 0;
+let slideIndex = 1;
 showSlides();
 
-function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
 </script>
 
