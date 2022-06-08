@@ -5,5 +5,7 @@
   abstract_link: https://types22.inria.fr/files/2022/06/TYPES_2022_paper_21.pdf
 - title: Formal Topology in Univalent Foundations
   date: Feb. 2020
-  event: Gothenburg-Stockholm Type Theory Seminar
+  event: Goteborg-Stockholm Type Theory Seminar
+  event_link: https://wiki.portal.chalmers.se/cse/pmwiki.php/ProgLog/StockholmGoteborgMeeting200227
   slides_link: https://raw.githubusercontent.com/ayberkt/gstts-formal-topology-talk/master/latex/slides.pdf
+  abstract_link: https://wiki.portal.chalmers.se/cse/pmwiki.php/ProgLog/StockholmGoteborgMeeting200227#tosun
