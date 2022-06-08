@@ -1,1 +1,4 @@
-url: https://www.cs.bham.ac.uk/~axt978
+url         : https://www.cs.bham.ac.uk
+baseurl     : /~axt978
+source      : .
+destination : public_html
