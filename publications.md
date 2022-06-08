@@ -31,7 +31,7 @@ layout: default
     </tr>
     <tr>
         <td></td>
-        <td class="extra">at <a {% if item.event_link %}href="{{ item.event-link }}"{% endif %}>{{ item.event }}</a></td>
+        <td class="extra">at <a {% if item.event_link %}href="{{ item.event_link }}"{% endif %}>{{ item.event }}</a></td>
     </tr>
     {% if item.slides_link and item.abstract_link %}
     <tr>
