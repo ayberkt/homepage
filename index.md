@@ -5,7 +5,7 @@ title: About
 
 ## About
 
-<img src="/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
+<img src="/~axt978/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
 
 I am a PhD student in the [Theory of Computation][1] group at the University of
 Birmingham, interested in the topological interpretation of computation. My

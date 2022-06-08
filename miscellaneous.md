@@ -13,19 +13,19 @@ species][3] of birds. Below are some of my favourite shots.
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="/assets/images/IMG_1766-screen.jpg" style="width:100%">
+    <img src="/~axt978/assets/images/IMG_1766-screen.jpg" style="width:100%">
     <div class="caption">Goldcrest</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="/assets/images/IMG_1895-screen.jpg" style="width:100%">
+    <img src="/~axt978/assets/images/IMG_1895-screen.jpg" style="width:100%">
     <div class="caption">Common Kingfisher.</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="/assets/images/IMG_8832-screen.jpg" style="width:100%">
+    <img src="/~axt978/assets/images/IMG_8832-screen.jpg" style="width:100%">
     <div class="caption">Greater Whitethroat</div>
   </div>
 
