@@ -25,7 +25,7 @@ species][3] of birds. Below are some of my favourite shots.
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="/~axt978/assets/images/IMG_8832-screen.jpg" style="width:100%">
+    <img src="/~axt978/assets/images/IMG_8830-screen.jpg" style="width:100%">
     <div class="caption">Greater Whitethroat</div>
   </div>
 
