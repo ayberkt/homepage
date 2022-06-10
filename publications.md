@@ -60,7 +60,7 @@ layout: default
 ## Preprints & Theses
 
 <table>
-  {% for item in site.data.preprints-theses %}
+  {% for item in site.data.theses %}
     <tr>
         <td class="date">{{ item.date }}</td>
         <td>{{ item.title }}</td>
