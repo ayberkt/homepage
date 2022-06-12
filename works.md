@@ -1,5 +1,5 @@
 ---
-title: Work
+title: Works
 layout: default
 ---
 
@@ -14,10 +14,18 @@ layout: default
     <tr>
       <td></td><td class="extra">with <a href="{{ item.coauthor.link }}">{{ item.coauthor.name }}</a></td>
     </tr>
-    <tr>
-      <td></td>
-      <td class="extra">Published in <a href="{{ item.published-in.link }}">{{ item.published-in.title }}</a></td>
-    </tr>
+    {% if item.type == "chapter" %}
+      <tr>
+        <td></td>
+        <td class="extra">Published in <a href="{{ item.published-in.link }}">{{ item.published-in.title }}</a></td>
+      </tr>
+    {% endif %}
+    {% for extra in item.extras %}
+      <tr>
+        <td></td>
+        <td class="extra">{{ extra }}</td>
+      </tr>
+    {% endfor %}
   {% endfor %}
 </table>
 
@@ -52,7 +60,7 @@ layout: default
 ## Preprints & Theses
 
 <table>
-  {% for item in site.data.preprints-theses %}
+  {% for item in site.data.theses %}
     <tr>
         <td class="date">{{ item.date }}</td>
         <td>{{ item.title }}</td>
