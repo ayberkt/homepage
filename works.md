@@ -57,7 +57,7 @@ layout: default
   {% endfor %}
 </table>
 
-## Preprints & Theses
+## Theses
 
 <table>
   {% for item in site.data.theses %}
@@ -77,5 +77,28 @@ layout: default
       <td></td>
       <td class="extra"><a href="{{ item.pdf_link }}">pdf</a>, <a href="{{ item.slides_link }}">slides</a></td>
     </tr>
+  {% endfor %}
+</table>
+
+## Notes & Drafts
+
+<table>
+  {% for item in site.data.other-writings %}
+    <tr>
+        <td class="date">{{ item.date }}</td>
+        <td>{{ item.title }}</td>
+    </tr>
+    {% for extra in item.extras %}
+      <tr>
+        <td></td>
+        <td class="extra">{{ extra }}</td>
+      </tr>
+    {% endfor %}
+    {% if item.pdf_link %}
+      <tr>
+        <td></td>
+        <td class="extra"><a href="{{ item.pdf_link }}">pdf</a></td>
+      </tr>
+    {% endif %}
   {% endfor %}
 </table>
