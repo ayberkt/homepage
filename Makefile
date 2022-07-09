@@ -1,8 +1,8 @@
 all: public_html
 
+public_html: export JEKYLL_ENV = production
 
 public_html:
-	export JEKYLL_ENV=production
 	bundle exec jekyll build
 
 .PHONY: deploy
