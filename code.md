@@ -15,6 +15,11 @@ on:
   the [`TypeTopology`][4] library of
 - [`sequents`][5]. A *Standard ML* implementation of Roy Dyckhoff's sequent
   calculus [LJT][6].
+- [`simplc`][7]. A toy compiler from a simple security-typed imperative
+  language into a stack machine, formally verified to preserve the
+  noninterference property of the high level language through compilation.
+  Developed together with Alexander Fuhs as the final project for [Andrei
+  Sabelfeld][8]'s language-based security course at Chalmers.
 
 [1]: https://www.cs.bham.ac.uk/~axt978/pointfree-topology-in-UF/Main.html
 [2]: https://www.cs.bham.ac.uk/~axt978/pointfree-topology-in-UF/Sierpinski.html
@@ -22,3 +27,5 @@ on:
 [4]: https://github.com/martinescardo/TypeTopology
 [5]: https://github.com/ayberkt/sequents
 [6]: https://www.jstor.org/stable/2275431
+[7]: https://github.com/ayberkt/simplc
+[8]: https://www.cse.chalmers.se/~andrei/
