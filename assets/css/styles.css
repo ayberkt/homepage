@@ -51,6 +51,22 @@ h2 {
   margin-bottom : 1em  ;
 }
 
+.post_title {
+  font-size     : 26px   ;
+  font-style    : italic ;
+  margin-top    : 2em    ;
+  text-align    : right ;
+}
+
+.post_date {
+  font-size     : 22px   ;
+  color         : #999   ;
+  text-align    : right  ;
+  margin-top    : -1em   ;
+  font-style    : italic ;
+  margin-bottom : 2em    ;
+}
+
 a {
   color           : rgb(33, 80, 160) ;
   text-decoration : none             ; /* Prevent underlining of links. */
