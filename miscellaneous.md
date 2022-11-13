@@ -4,7 +4,7 @@ title: Miscellaneous
 ---
 
 I'm an avid wildlife photographer and [birdwatcher][1]. I regularly contribute
-my sightings to [eBird][2]. To date, I have photographed a total of [137
+my sightings to [eBird][2]. To date, I have photographed a total of [150
 species][3] of birds. Below are some of my favourite shots.
 
  <!-- Slideshow container -->
