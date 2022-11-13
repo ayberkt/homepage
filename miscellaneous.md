@@ -20,7 +20,7 @@ species][3] of birds. Below are some of my favourite shots.
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="/~axt978/assets/images/IMG_1895-screen.jpg" style="width:100%">
-    <div class="caption">Common Kingfisher.</div>
+    <div class="caption">Common Kingfisher</div>
   </div>
 
   <div class="mySlides fade">
