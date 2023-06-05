@@ -7,10 +7,9 @@ title: About
 
 <img src="/~axt978/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
 
-I am a second year PhD student in the [Theory of Computation][1] group at the
-University of Birmingham, interested in domain theory and pointfree topology. My
-supervisor is [Martín H. Escardó][2] and second supervisor is [Vincent
-Rahli][3].
+I am PhD student in the [Theory of Computation][1] group at the University of
+Birmingham, interested in domain theory and pointfree topology. My supervisor is
+[Martín H. Escardó][2] and second supervisor is [Vincent Rahli][3].
 
 Before I started my PhD, I obtained an MSc degree from Chalmers University of
 Technology. For my MSc thesis there, I investigated [formal topology][4] in the
