@@ -20,6 +20,12 @@ layout: default
         <td class="extra">Published in <a href="{{ item.published-in.link }}">{{ item.published-in.title }}</a></td>
       </tr>
     {% endif %}
+    {% if item.type == "conference" %}
+      <tr>
+        <td></td>
+        <td class="extra">Presented at <a href="{{ item.published-in.link }}">{{ item.published-in.title }}</a></td>
+      </tr>
+    {% endif %}
     {% assign len = item.links.size %}
     {% assign last_index = len | minus: 1 %}
     {% if len > 0 %}
