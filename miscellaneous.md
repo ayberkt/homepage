@@ -3,8 +3,10 @@ layout: default
 title: Miscellaneous
 ---
 
-I'm an avid wildlife photographer and [birdwatcher][1]. I regularly contribute
-my sightings to the [eBird][2] database. Below are some of my favourite shots.
+## Wildlife photography
+
+I'm an avid wildlife photographer. Below are some of my favourite shots from
+around the world.
 
  <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -39,7 +41,7 @@ my sightings to the [eBird][2] database. Below are some of my favourite shots.
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
-</div> 
+</div>
 
 <script>
 let slideIndex = 1;
@@ -72,6 +74,22 @@ function showSlides(n) {
 }
 </script>
 
-[1]: https://en.wikipedia.org/wiki/Birdwatching#Birding,_birdwatching,_and_twitching
-[2]: https://ebird.org/about
-[3]: https://ebird.org/profile/MTgwNDg0Nw/world
+## Contributed wildlife studies
+
+I often contribute my sightings to scientific studies of nature and bird
+migration. So far, I have contributed to two [bird ringing][1] projects through
+sightings of ringed birds:
+
+1. _Common Tern_ ringed by the [Israeli Bird Ringing Center][ibrc].
+  - Sighted in Büyükçekmece, Istanbul, Turkey.
+  - [Recovery report](/~axt978/assets/documents/IBRC_IL037_2021_Ste_Hir_DD-24732.pdf)
+1. _Cormorant_ ringed by [NABU][nabu].
+  - Sighted in Bempton Cliffs, Yorkshire, UK.
+  - [Recovery report](/~axt978/assets/documents/Wiederfunde-Kormoran-F676-20230501-1.pdf)
+
+I also regularly contribute to the [eBird project][ebird].
+
+[1]: https://en.wikipedia.org/wiki/Bird_ringing
+[ebird]: https://ebird.org/profile/MTgwNDg0Nw
+[ibrc]: https://www.birds.org.il/en/birding-center/The-Israeli-Bird-Ringing-Center
+[nabu]: https://en.nabu.de/
