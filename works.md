@@ -20,6 +20,12 @@ layout: default
         <td class="extra">Published in <a href="{{ item.published-in.link }}">{{ item.published-in.title }}</a></td>
       </tr>
     {% endif %}
+    {% if item.links.size > 0 %}
+      <tr>
+        <td></td>
+        <td class="extra">{% for link in item.links %}<a href="{{ link.url }}">{{ link.name }}</a>, {% endfor %}</td>
+      </tr>
+    {% endif %}
     {% for extra in item.extras %}
       <tr>
         <td></td>
