@@ -6,6 +6,8 @@ title: Code
 A short list of selected software and mathematical formalisations I have worked
 on:
 
+- [Patch locale][9]. Formalisation of a completely predicative construction
+  of the _patch locale_ (j.w.w. Martín Escardó) as part of [`TypeTopology`][4].
 - [`pointfree-topology-in-UF`][1]. Formalisation of some locale theory and
   formal topology in cubical type theory, originally developed to accompany my
   MSc thesis.
@@ -29,3 +31,4 @@ on:
 [6]: https://www.jstor.org/stable/2275431
 [7]: https://github.com/ayberkt/simplc
 [8]: https://www.cse.chalmers.se/~andrei/
+[9]: https://www.cs.bham.ac.uk/~mhe/TypeTopology/Locales.UniversalPropertyOfPatch.html
