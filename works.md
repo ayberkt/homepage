@@ -20,10 +20,12 @@ layout: default
         <td class="extra">Published in <a href="{{ item.published-in.link }}">{{ item.published-in.title }}</a></td>
       </tr>
     {% endif %}
-    {% if item.links.size > 0 %}
+    {% assign len = item.links.size %}
+    {% assign last_index = len | minus: 1 %}
+    {% if len > 0 %}
       <tr>
         <td></td>
-        <td class="extra">{% for link in item.links %}<a href="{{ link.url }}">{{ link.name }}</a>, {% endfor %}</td>
+        <td class="extra">{% for i in (0 .. len) %}<a href="{{ item.links[i].url }}">{{ item.links[i].name }}</a>{% if i < last_index %}, {% endif %}{% endfor %}</td>
       </tr>
     {% endif %}
     {% for extra in item.extras %}
