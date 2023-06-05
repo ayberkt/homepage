@@ -8,7 +8,7 @@
     title: "MFPS XXXVIII"
     link: "https://www.cs.cornell.edu/mfps-2022"
   links:
-    - { name: "DOI link" , url: "https://doi.org/10.46298/entics.10808" }
+    - { name: "DOI"      , url: "https://doi.org/10.46298/entics.10808" }
     - { name: "arXiv"    , url: "https://arxiv.org/abs/2301.04728"      }
 - title: "Formal Topology and Univalent Foundations"
   date: Aug. 2021
