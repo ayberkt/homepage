@@ -1,14 +1,15 @@
 - title: "Patch Locale of a Spectral Locale in Univalent Type Theory"
-  date: Upcoming
+  date: Jul. 2022
   type: conference
   coauthor:
     name: "Martín H. Escardó"
     link: "https://www.cs.bham.ac.uk/~mhe"
   published-in:
-    title: "MFPS 2022"
+    title: "MFPS XXXVIII"
     link: "https://www.cs.cornell.edu/mfps-2022"
-  extras:
-    - "Accepted to appear at <a href='https://www.cs.cornell.edu/mfps-2022'>MFPS 2022</a>"
+  links:
+    - { name: "DOI link" , url: "https://doi.org/10.46298/entics.10808" }
+    - { name: "arXiv"    , url: "https://arxiv.org/abs/2301.04728"      }
 - title: "Formal Topology and Univalent Foundations"
   date: Aug. 2021
   type: chapter
