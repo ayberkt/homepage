@@ -2,3 +2,5 @@ url         : https://www.cs.bham.ac.uk
 baseurl     : /~axt978
 source      : .
 destination : public_html
+markdown    : kramdown
+usemathjax  : true

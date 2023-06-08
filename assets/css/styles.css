@@ -8,7 +8,7 @@ body {
   margin      : 0 auto                          ;
   max-width   : 45em                            ;
   font-family : "Martel", "DejaVu Serif", serif ;
-  line-height : 1.3                             ;
+  line-height : 1.35                            ;
   padding     : 2em 1em                         ;
   color       : #222                            ;
 }
@@ -79,6 +79,18 @@ td {
   font-size: 10pt;
   font-style: italic;
   color: #333;
+}
+
+.post-title {
+  font-size: 28px;
+  text-align: center;
+}
+
+.post-info {
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  margin-bottom: 3em;
 }
 
 /* Footer */
