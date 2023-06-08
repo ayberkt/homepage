@@ -42,9 +42,12 @@ Recall that we think of $$D$$ (in the words of Escardó) as a
 > computations,
 
 and view the order $$\sqsubseteq$$ as ranking these computations with respect to
-how much information they contain. A directed family $$\{ x_i \}_{i \in I}$$ is
-one that is closed under finite upper bounds i.e. it is inhabited and given any
-two $$x_i$$ and $$x_j$$ the family contains some $$x_k$$ above both.
+how much information they contain. Topologically, it can be thought of as
+encoding the specialisation preorder of the associated Scott topology.
+
+A directed family $$\{ x_i \}_{i \in I}$$ is one that is closed under finite
+upper bounds i.e. it is inhabited and given any two $$x_i$$ and $$x_j$$ the
+family contains some $$x_k$$ above both.
 
 The fact that the limit of any such family exists in a dcpo can be understood as
 computing the _ideal computation_ that is being approximated by a bunch of
@@ -63,10 +66,16 @@ In these conceptual terms,
      judge that $$U$$ holds, then some of the concrete computations
      approximating it must already be constituting evidence that $$U$$ holds.
      
-These two conditions together characterise the class of properties that are
-_positively detectable_ with respect to the notion of information given by
-the domain $$(D, \sqsubseteq)$$ in consideration.
+These two conditions together characterise the class of opens of the "topology
+of positive information" with respect to the notion of information given by the
+domain. The Scott-open properties are those such that if they are satisfied by
+some computation, this is observable by a _finite computation_.
+
+Now the question that we would like consider is: _what about the topology of
+positive and negative information_ of a domain? This is exactly what is called
+the [Lawson topology][4] of a domain.
 
 [1]: https://doi.org/10.46298/entics.10808
 [2]: https://www.cs.bham.ac.uk/~mhe/papers/patch-short.pdf
 [3]: https://ncatlab.org/nlab/show/coherent+space
+[4]: https://en.wikipedia.org/wiki/Lawson_topology
