@@ -1,3 +1,16 @@
+- title: "Inductive Continuity via Brouwer Trees"
+  date: Upcoming
+  type: conference
+  coauthor:
+    name: "Vincent Rahli"
+    link: "https://vrahli.github.io/"
+  coauthor:
+    name: "Liron Cohen"
+    link: "https://www.cs.bgu.ac.il/~cliron/"
+  coauthor:
+    name: "Bruno da Rocha Paiva"
+    link: "https://brunorochapaiva.github.io/"
+  extra: "Accepted to be presented at MFCS 2023"
 - title: "Patch Locale of a Spectral Locale in Univalent Type Theory"
   date: Jul. 2022
   type: conference
