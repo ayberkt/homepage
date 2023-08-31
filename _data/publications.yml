@@ -1,22 +1,19 @@
 - title: "Inductive Continuity via Brouwer Trees"
-  date: Upcoming
+  date: Aug. 2023
   type: conference
-  coauthor:
-    name: "Vincent Rahli"
-    link: "https://vrahli.github.io/"
-  coauthor:
-    name: "Liron Cohen"
-    link: "https://www.cs.bgu.ac.il/~cliron/"
-  coauthor:
-    name: "Bruno da Rocha Paiva"
-    link: "https://brunorochapaiva.github.io/"
+  coauthors:
+    - { name: "Liron Cohen"          , url: "https://www.cs.bgu.ac.il/~cliron/"  }
+    - { name: "Vincent Rahli"        , url: "https://www.cs.bham.ac.uk/~rahliv/" }
+    - { name: "Bruno da Rocha Paiva" , url: "https://brunorochapaiva.github.io/" }
+  published-in:
+    title: "MFCS 2023"
+    link: "https://mfcs2023.labri.fr/"
   extra: "Accepted to be presented at MFCS 2023"
 - title: "Patch Locale of a Spectral Locale in Univalent Type Theory"
   date: Jul. 2022
   type: conference
-  coauthor:
-    name: "Martín H. Escardó"
-    link: "https://www.cs.bham.ac.uk/~mhe"
+  coauthors:
+    - { name: "Martín H. Escardó" , link: "https://www.cs.bham.ac.uk/~mhe" }
   published-in:
     title: "MFPS XXXVIII"
     link: "https://www.cs.cornell.edu/mfps-2022"
@@ -26,9 +23,8 @@
 - title: "Formal Topology and Univalent Foundations"
   date: Aug. 2021
   type: chapter
-  coauthor:
-    name: "Thierry Coquand"
-    link: "http://www.cse.chalmers.se/~coquand"
+  coauthors:
+    - { name: "Thierry Coquand" , link: "http://www.cse.chalmers.se/~coquand" }
   published-in:
     title: "Proof and Computation Vol. II"
     link: "https://www.worldscientific.com/worldscibooks/10.1142/12263"
