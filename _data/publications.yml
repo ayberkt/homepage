@@ -15,7 +15,7 @@
   date: Jul. 2022
   type: conference
   coauthors:
-    - { name: "Martín H. Escardó" , link: "https://www.cs.bham.ac.uk/~mhe" }
+    - { name: "Martín H. Escardó" , url: "https://www.cs.bham.ac.uk/~mhe" }
   published-in:
     title: "MFPS XXXVIII"
     link: "https://www.cs.cornell.edu/mfps-2022"
@@ -26,7 +26,7 @@
   date: Aug. 2021
   type: chapter
   coauthors:
-    - { name: "Thierry Coquand" , link: "http://www.cse.chalmers.se/~coquand" }
+    - { name: "Thierry Coquand" , url: "http://www.cse.chalmers.se/~coquand" }
   published-in:
     title: "Proof and Computation Vol. II"
     link: "https://www.worldscientific.com/worldscibooks/10.1142/12263"

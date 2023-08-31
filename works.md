@@ -16,7 +16,7 @@ layout: default
     {% if len > 0 %}
     <tr>
       <td></td>
-      <td class="extra">with {% for i in (0 .. len) %}<a href="{{ item.coauthors[i].link }}">{{ item.coauthors[i].name }}</a>{% if i < last_index %}, {% endif %}{% endfor %}</td>
+      <td class="extra">with {% for i in (0 .. len) %}<a href="{{ item.coauthors[i].url }}">{{ item.coauthors[i].name }}</a>{% if i < last_index %}, {% endif %}{% endfor %}</td>
     </tr>
     {% endif %}
     {% if item.type == "chapter" %}
