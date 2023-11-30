@@ -18,7 +18,7 @@ title: Teaching
         <td class="extra">{{ item.role }}</td>
     </tr>
     {% if item.class-photo %}
-      <tr><td></td><td class="extra"><a href="/~axt978/assets/images/{{ item.class-photo }}">Class photo</a></td></tr>
+      <tr><td></td><td class="extra"><a href="/~axt978/{{ item.class-photo }}.html">Class photo</a></td></tr>
     {% endif %}
   {% endfor %}
 </table>

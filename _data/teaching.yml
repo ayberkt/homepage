@@ -3,12 +3,13 @@
   institution: University of Birmingham
   level: Second year course
   role: Teaching assistant
-  class-photo: "fp-2023-class-photo.jpg"
+  class-photo: "photos/2023-11-29-fp-class-photo"
 - title: Advanced Functional Programming
   period: Spring 2023
   level: Third year course
   institution: University of Birmingham
   role: Teaching assistant
+  class-photo: "photos/2022-05-09-afp-class-photo"
 - title: Functional Programming
   period: Fall 2022
   level: Second year course
@@ -18,7 +19,6 @@
   period: Spring 2022
   level: Third year course
   institution: University of Birmingham
-  class-photo: "afp-2022-class-photo.jpg"
   role: Teaching assistant
 - title: Functional Programming
   period: Fall 2021
