@@ -19,6 +19,39 @@ layout: default
       <td class="extra">with {% for i in (0 .. len) %}<a href="{{ item.coauthors[i].url }}">{{ item.coauthors[i].name }}</a>{% if i < last_index %}, {% endif %}{% endfor %}</td>
     </tr>
     {% endif %}
+    {% assign len = item.links.size %}
+    {% assign last_index = len | minus: 1 %}
+    {% if len > 0 %}
+      <tr>
+        <td></td>
+        <td class="extra">{% for i in (0 .. len) %}<a href="{{ item.links[i].url }}">{{ item.links[i].name }}</a>{% if i < last_index %}, {% endif %}{% endfor %}</td>
+      </tr>
+    {% endif %}
+    {% for extra in item.extras %}
+      <tr>
+        <td></td>
+        <td class="extra">{{ extra }}</td>
+      </tr>
+    {% endfor %}
+  {% endfor %}
+</table>
+
+## Preprints
+
+<table>
+  {% for item in site.data.preprints %}
+    <tr>
+        <td class="date">{{ item.date }}</td>
+        <td>{{ item.title }}</td>
+    </tr>
+    {% assign len = item.coauthors.size   %}
+    {% assign last_index = len | minus: 1 %}
+    {% if len > 0 %}
+    <tr>
+      <td></td>
+      <td class="extra">with {% for i in (0 .. len) %}<a href="{{ item.coauthors[i].url }}">{{ item.coauthors[i].name }}</a>{% if i < last_index %}, {% endif %}{% endfor %}</td>
+    </tr>
+    {% endif %}
     {% if item.type == "chapter" %}
       <tr>
         <td></td>
