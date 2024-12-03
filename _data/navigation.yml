@@ -1,4 +1,5 @@
 - name: About
+  link: /index.html
 - name: Contact
   link: /contact.html
 - name: Works
