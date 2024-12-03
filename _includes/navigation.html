@@ -1,6 +1,6 @@
 <nav>
   {% for item in site.data.navigation %}
-    {% assign base = '/~axt978' %}
+    {% assign base = '' %}
     {% assign url = base | append: page.url %}
     <a href="{{ item.link }}" {% if url == item.link %}class="current"{% endif %}>
       {{ item.name | downcase }}
@@ -8,7 +8,7 @@
   {% endfor %}
   <a href="https://github.com/ayberkt">
     <img
-      src="/~axt978/assets/images/GitHub-Mark-120px-plus.png"
+      src="/assets/images/GitHub-Mark-120px-plus.png"
       style="width: 1em; margin-inline-start: 0.5em"
       alt="GitHub icon"/>
   </a>

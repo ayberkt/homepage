@@ -5,7 +5,7 @@ title: About
 
 ## About
 
-<img src="/~axt978/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
+<img src="/assets/images/maki-de-madagascar.jpg" alt="Maki de Madagascar"/>
 
 I am PhD student in the [Theory of Computation][1] group at the University of
 Birmingham, interested in domain theory and pointfree topology. My supervisor is

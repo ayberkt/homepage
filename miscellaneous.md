@@ -14,25 +14,25 @@ around the world.
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 4</div>
-    <img src="/~axt978/assets/images/IMG_1766-screen.jpg" style="width:100%">
+    <img src="/assets/images/IMG_1766-screen.jpg" style="width:100%">
     <div class="caption">Goldcrest</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 4</div>
-    <img src="/~axt978/assets/images/IMG_1895-screen.jpg" style="width:100%">
+    <img src="/assets/images/IMG_1895-screen.jpg" style="width:100%">
     <div class="caption">Common Kingfisher</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
-    <img src="/~axt978/assets/images/IMG_8830-screen.jpg" style="width:100%">
+    <img src="/assets/images/IMG_8830-screen.jpg" style="width:100%">
     <div class="caption">Greater Whitethroat</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 4</div>
-    <img src="/~axt978/assets/images/IMG_7935-screen.jpg" style="width:100%">
+    <img src="/assets/images/IMG_7935-screen.jpg" style="width:100%">
     <div class="caption">Razorbill</div>
   </div>
 
@@ -89,10 +89,10 @@ sightings of ringed birds:
 
 1. _Common Tern_ ringed by the [Israeli Bird Ringing Center][ibrc].
   - Sighted in Büyükçekmece, Istanbul, Turkey.
-  - [Recovery report](/~axt978/assets/documents/IBRC_IL037_2021_Ste_Hir_DD-24732.pdf)
+  - [Recovery report](/assets/documents/IBRC_IL037_2021_Ste_Hir_DD-24732.pdf)
 1. _Cormorant_ ringed by [NABU][nabu].
   - Sighted in Bempton Cliffs, Yorkshire, UK.
-  - [Recovery report](/~axt978/assets/documents/Wiederfunde-Kormoran-F676-20230501-1.pdf)
+  - [Recovery report](/assets/documents/Wiederfunde-Kormoran-F676-20230501-1.pdf)
 
 I also regularly contribute to the [eBird project][ebird].
 
