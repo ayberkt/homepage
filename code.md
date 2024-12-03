@@ -8,7 +8,7 @@ on:
 
 - [Patch locale][9]. Formalisation of a completely predicative construction
   of the _patch locale_ (j.w.w. Martín Escardó) as part of [`TypeTopology`][4].
-- [`pointfree-topology-in-UF`][1]. Formalisation of some locale theory and
+- [`formal-topology-in-UF`][1]. Formalisation of some locale theory and
   formal topology in cubical type theory, originally developed to accompany my
   MSc thesis.
 - [Sierpiński frame in UF][2]. An implementation of the Sierpiński frame
@@ -20,12 +20,12 @@ on:
 - [`simplc`][7]. A toy compiler from a simple security-typed imperative
   language into a stack machine, formally verified to preserve the
   noninterference property of the high level language through compilation.
-  Developed together with Alexander Fuhs as the final project for [Andrei
-  Sabelfeld][8]'s language-based security course at Chalmers.
+  Developed together with Alexander Fuhs as the final project for
+  [Andrei Sabelfeld][8]'s language-based security course at Chalmers.
 
-[1]: https://www.cs.bham.ac.uk/~axt978/pointfree-topology-in-UF/Main.html
-[2]: https://www.cs.bham.ac.uk/~axt978/pointfree-topology-in-UF/Sierpinski.html
-[3]: https://www.cs.bham.ac.uk/~mhe/TypeTopology/InitialFrame.html
+[1]: https://ayberkt.github.io/formal-topology-in-UF/Main.html
+[2]: https://ayberkt.github.io/TypeTopology/Locales.Sierpinski.UniversalProperty.html
+[3]: https://ayberkt.github.io/TypeTopology/Locales.InitialFrame.html
 [4]: https://github.com/martinescardo/TypeTopology
 [5]: https://github.com/ayberkt/sequents
 [6]: https://www.jstor.org/stable/2275431
