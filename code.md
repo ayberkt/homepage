@@ -6,6 +6,7 @@ title: Code
 A short list of selected software and mathematical formalisations I have worked
 on:
 
+- [AoC 2024](https://github.com/ayberkt/aoc-2024)
 - [Patch locale][9]. Formalisation of a completely predicative construction
   of the _patch locale_ (j.w.w. Martín Escardó) as part of [`TypeTopology`][4].
 - [`formal-topology-in-UF`][1]. Formalisation of some locale theory and
