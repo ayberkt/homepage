@@ -13,27 +13,33 @@ around the world.
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 4</div>
+    <div class="numbertext">1 / 5</div>
     <img src="/assets/images/IMG_1766-screen.jpg" style="width:100%">
     <div class="caption">Goldcrest</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
+    <div class="numbertext">2 / 5</div>
     <img src="/assets/images/IMG_1895-screen.jpg" style="width:100%">
     <div class="caption">Common Kingfisher</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
+    <div class="numbertext">3 / 5</div>
     <img src="/assets/images/IMG_8830-screen.jpg" style="width:100%">
     <div class="caption">Greater Whitethroat</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
+    <div class="numbertext">4 / 5</div>
     <img src="/assets/images/IMG_7935-screen.jpg" style="width:100%">
     <div class="caption">Razorbill</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="/assets/images/AAAA2399-screen.jpg" style="width:100%">
+    <div class="caption">Grey Heron</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -48,6 +54,7 @@ around the world.
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
 </div>
 
 <script>
