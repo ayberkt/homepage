@@ -7,7 +7,7 @@ public_html:
 
 .PHONY: deploy
 deploy: public_html
-	rsync -avt public_html/ axt978@tinky-winky.cs.bham.ac.uk:/home/students/axt978/public_html/
+	cp -r public_html/* ~/Code/ayberkt.github.io/
 
 .PHONY: clean
 clean:
