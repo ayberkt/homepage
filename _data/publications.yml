@@ -1,3 +1,16 @@
+- title: "Internal Effectful Forcing in System T"
+  date: "May 2025"
+  type: conference
+  coauthors:
+    - { name: "Martín H. Escardó" , url: "https://www.cs.bham.ac.uk/~mhe" }
+    - { name: "Bruno da Rocha Paiva" , url: "https://brunorochapaiva.github.io/" }
+    - { name: "Vincent Rahli"        , url: "https://www.cs.bham.ac.uk/~rahliv/" }
+  published-in:
+    title: "FSCD 2025"
+    link: "https://arxiv.org/abs/2505.11055"
+  links:
+    - { name: "arXiv", "https://arxiv.org/abs/2505.11055" }
+    - { name: "formalization", "https://martinescardo.github.io/InternalEffectfulForcing/EffectfulForcing.Internal.PaperIndex.html" }
 - title: "Inductive Continuity via Brouwer Trees"
   date: Aug. 2023
   type: conference
